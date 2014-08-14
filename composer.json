@@ -1,0 +1,25 @@
+{
+    "name": "xtuers/chat",
+    "description": "xtuers.com的Websocket私信聊天php端实现",
+    "authors": [
+        {
+            "name": "linroid",
+            "email": "linroid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "cboden/ratchet": "0.4.x-dev",
+        "illuminate/support": "4.2.*"
+
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Xtuers\\Chat\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

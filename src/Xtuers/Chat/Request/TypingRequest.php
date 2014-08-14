@@ -1,0 +1,13 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: linroid
+ * Date: 14-7-19
+ * Time: 上午11:33
+ */
+
+namespace Xtuers\Chat\Request;
+
+class TypingRequest extends UserBaseRequest{
+
+}
